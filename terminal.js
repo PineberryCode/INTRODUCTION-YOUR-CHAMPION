@@ -3,7 +3,20 @@ const outputElement = document.getElementById("output");
 let frame = 0;
 let frame02 = 0;
 
-const frames = [" ******* ","    *******    ", "       *******       "];
+const frames = [
+                " ******* ",
+                "    *******    ",
+                "       *******       ",
+                "          *******          ",
+                "             *******             ",
+                "                *******                ",
+                "                   *******                   ",
+                "                *******                ",
+                "             *******             ",
+                "          *******          ",
+                "       *******       ",
+                "    *******    "
+            ];
 
 function updateDonut () {
     outputElement.textContent = frames[frame];
