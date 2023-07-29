@@ -28,16 +28,12 @@ footer {
     overflow-y: hidden;
 }
 
-#navPartial {
-    height: 90px;
-}
-
 .card-title {
     font-size: 40px;
     font-family:"AtlantisInternational";
 }
 
-#q01, #q02 {
+#q01, #q02, #q03, #q04 {
     padding-left: 150px;
     font-weight: bold;
     font-stretch: wider;
@@ -45,7 +41,8 @@ footer {
     color: #fff;
 }
 
-#paragraph_aboutMe, #paragraph_aboutMe_02 {
+#paragraph_aboutMe, #paragraph_aboutMe_02, 
+#paragraph_aboutMe_03, #paragraph_aboutMe_04 {
     width: 900px;
     line-height: 50px;
     text-align: justify;
@@ -61,4 +58,12 @@ footer {
 
 #carouselExampleFade {
     margin-top: 70px;
+}
+
+.carousel-inner {
+    height:370px;
+}
+
+.navbar-brand, .navbar-nav {
+    font-size: 25px;
 }
